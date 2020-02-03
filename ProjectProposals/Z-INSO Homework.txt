@@ -1,0 +1,35 @@
+Team:
+Jaime G. Torrens Lugo
+Edgardo Figueroa
+Alberto Pérez
+Edison Zapata
+Daniel Alfaro
+Bryan Bonilla
+
+Author: Jaime G. Torrens Lugo
+
+Date: January 27, 2020
+
+Project Proposal:
+	GPS service cross-checker and internet scraper to see if certain lanes are closed or not
+	(can also be applied to traffic).
+Problem Statement:
+	GPS services, though reliable, sometimes do not provide accurate data on the status of a road and
+	therefore formulate routes that may not be idealif roads thought to be closed are open,
+	or the opposite where it sends you through a route that has a primary road closed or with heavy traffic.
+Target Users
+	Everyday commuters are targeted, but suppliers and truckers can also greatly benefit from such a system.
+Cost of Delay
+	If the system is not implemented, GPS users will have to guess if a GPS route is the best or not
+	depending on closed lanes/heavy traffic, which the GPS app may not have current info on.
+Constraints
+	Some possible constraints could be that the internet might not be the best place to ascertain the status
+	of roads or that there may not be good online resources at all, which would limit the system to only
+	comparing different GPS services.
+New User Experience
+	If working for, say, Google Maps, a separate panel or indicator may say whether a lane is closed
+	or not depending on recent news, reportings, or transit metrics.
+Validation and Measurement Plan
+	Validating the system would involve talking to average people and seeing if they would like such a system.
+	Measuring the correctness of the system would involve possibly lengthy tests where real traffic scenarios
+	would be observed and comparing the system's output to the real situation.
