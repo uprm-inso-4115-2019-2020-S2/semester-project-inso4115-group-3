@@ -3,21 +3,22 @@ import org.scalajs.dom
 import scalatags.JsDom.all._
 import dom.html
 import org.scalajs.dom.raw.Node
+
 object App{
 
   def main(args: Array[String]): Unit = {
 
     val btn = button(
-      "File 1",
+      "Upload",
       onclick := { () =>
-        dom.window.alert("Hello, world")
+        dom.window.alert("To be implemented")
       })
 
 
     val btn1 = button(
-      "File 2",
+      "Download",
       onclick := { () =>
-        dom.window.alert("Hello, world")
+        dom.window.alert("To be implemented")
       })
     val child = dom.document
       .createElement("div")
@@ -32,18 +33,15 @@ object App{
       "2. Documents-B"
     child2.textContent =
       "3. Documents-C"
-    // intentional overkill to demonstrate scalatags
+
     val content =
-      div(cls := "foo",
-        div(cls := "bar",
-          h2("Hello"),
+      div(
+          h2("CESCO offical papers retrieval"),
           child,
           child1,
           child2,
           btn,
           btn1
-
-        )
       )
 
     val root = dom.document.getElementById("root")

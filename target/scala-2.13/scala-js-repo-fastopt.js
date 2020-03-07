@@ -2283,10 +2283,10 @@ class $c_Lwebapp_App$ extends $c_O {
     const this$1 = $m_Lscalatags_JsDom$all$();
     const $$x4 = this$1.button__Lscalatags_JsDom$TypedTag();
     $m_Lscalatags_JsDom$all$();
-    const $$x3 = new $c_Lscalatags_JsDom$StringFrag("File 1");
+    const $$x3 = new $c_Lscalatags_JsDom$StringFrag("Upload");
     const $$x2 = $m_Lscalatags_JsDom$all$().onclick__Lscalatags_generic_Attr();
     const $$x1 = new $c_sjsr_AnonFunction0(((this$3) => (() => {
-      $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().alert("Hello, world")
+      $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().alert("To be implemented")
     }))(this));
     const this$4 = $m_Lscalatags_JsDom$all$();
     const ev = new $c_sjsr_AnonFunction1(((this$2$1) => ((f$2) => {
@@ -2298,10 +2298,10 @@ class $c_Lwebapp_App$ extends $c_O {
     const this$8 = $m_Lscalatags_JsDom$all$();
     const $$x8 = this$8.button__Lscalatags_JsDom$TypedTag();
     $m_Lscalatags_JsDom$all$();
-    const $$x7 = new $c_Lscalatags_JsDom$StringFrag("File 2");
+    const $$x7 = new $c_Lscalatags_JsDom$StringFrag("Download");
     const $$x6 = $m_Lscalatags_JsDom$all$().onclick__Lscalatags_generic_Attr();
     const $$x5 = new $c_sjsr_AnonFunction0(((this$3$1) => (() => {
-      $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().alert("Hello, world")
+      $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().alert("To be implemented")
     }))(this));
     const this$10 = $m_Lscalatags_JsDom$all$();
     const ev$1 = new $c_sjsr_AnonFunction1(((this$4$1) => ((f$3$2) => {
@@ -2317,23 +2317,18 @@ class $c_Lwebapp_App$ extends $c_O {
     child1.textContent = "2. Documents-B";
     child2.textContent = "3. Documents-C";
     const this$14 = $m_Lscalatags_JsDom$all$();
-    const $$x16 = this$14.div__Lscalatags_JsDom$TypedTag();
-    const $$x15 = $m_Lscalatags_JsDom$all$().cls__Lscalatags_generic_Attr().$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("foo", $m_Lscalatags_JsDom$all$().Lscalatags_JsDom$all$__f_stringAttr);
+    const $$x13 = this$14.div__Lscalatags_JsDom$TypedTag();
     const this$15 = $m_Lscalatags_JsDom$all$();
-    const $$x14 = this$15.div__Lscalatags_JsDom$TypedTag();
-    const $$x13 = $m_Lscalatags_JsDom$all$().cls__Lscalatags_generic_Attr().$colon$eq__O__Lscalatags_generic_AttrValue__Lscalatags_generic_AttrPair("bar", $m_Lscalatags_JsDom$all$().Lscalatags_JsDom$all$__f_stringAttr);
-    const this$16 = $m_Lscalatags_JsDom$all$();
-    const $$x12 = this$16.h2__Lscalatags_JsDom$TypedTag();
-    const array$2 = [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("Hello"))];
+    const $$x12 = this$15.h2__Lscalatags_JsDom$TypedTag();
+    const array$2 = [($m_Lscalatags_JsDom$all$(), new $c_Lscalatags_JsDom$StringFrag("CESCO offical papers retrieval"))];
     const $$x11 = $$x12.apply__sci_Seq__Lscalatags_JsDom$TypedTag(new $c_sjsr_WrappedVarArgs(array$2));
+    const this$20 = $m_Lscalatags_JsDom$all$();
+    const $$x10 = new $c_Lscalatags_LowPriorityImplicits$bindNode(this$20, child);
     const this$21 = $m_Lscalatags_JsDom$all$();
-    const $$x10 = new $c_Lscalatags_LowPriorityImplicits$bindNode(this$21, child);
+    const $$x9 = new $c_Lscalatags_LowPriorityImplicits$bindNode(this$21, child1);
     const this$22 = $m_Lscalatags_JsDom$all$();
-    const $$x9 = new $c_Lscalatags_LowPriorityImplicits$bindNode(this$22, child1);
-    const this$23 = $m_Lscalatags_JsDom$all$();
-    const array$3 = [$$x13, $$x11, $$x10, $$x9, new $c_Lscalatags_LowPriorityImplicits$bindNode(this$23, child2), btn, btn1];
-    const array$4 = [$$x15, $$x14.apply__sci_Seq__Lscalatags_JsDom$TypedTag(new $c_sjsr_WrappedVarArgs(array$3))];
-    const content = $$x16.apply__sci_Seq__Lscalatags_JsDom$TypedTag(new $c_sjsr_WrappedVarArgs(array$4));
+    const array$3 = [$$x11, $$x10, $$x9, new $c_Lscalatags_LowPriorityImplicits$bindNode(this$22, child2), btn, btn1];
+    const content = $$x13.apply__sci_Seq__Lscalatags_JsDom$TypedTag(new $c_sjsr_WrappedVarArgs(array$3));
     const root = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().getElementById("root");
     root.innerHTML = "";
     root.appendChild(content.render__Lorg_scalajs_dom_raw_Element())
@@ -7935,30 +7930,6 @@ const $p_Lscalatags_JsDom$all$__onclick$lzycompute__Lscalatags_generic_Attr = (f
   };
   return $thiz.Lscalatags_JsDom$all$__f_onclick
 });
-const $p_Lscalatags_JsDom$all$__class$lzycompute__Lscalatags_generic_Attr = (function($thiz) {
-  const b = $thiz.Lscalatags_JsDom$all$__f_bitmap$4;
-  const lo = (67108864 & b.RTLong__f_lo);
-  if ((lo === 0)) {
-    $thiz.Lscalatags_JsDom$all$__f_class = $f_Lscalatags_generic_Util__attr__T__Lscalatags_generic_Namespace__Z__Lscalatags_generic_Attr($thiz, "class", null, false);
-    const b$1 = $thiz.Lscalatags_JsDom$all$__f_bitmap$4;
-    const lo$1 = (67108864 | b$1.RTLong__f_lo);
-    const hi = b$1.RTLong__f_hi;
-    $thiz.Lscalatags_JsDom$all$__f_bitmap$4 = new $c_RTLong(lo$1, hi)
-  };
-  return $thiz.Lscalatags_JsDom$all$__f_class
-});
-const $p_Lscalatags_JsDom$all$__cls$lzycompute__Lscalatags_generic_Attr = (function($thiz) {
-  const b = $thiz.Lscalatags_JsDom$all$__f_bitmap$4;
-  const lo = (134217728 & b.RTLong__f_lo);
-  if ((lo === 0)) {
-    $thiz.Lscalatags_JsDom$all$__f_cls = $thiz.class__Lscalatags_generic_Attr();
-    const b$1 = $thiz.Lscalatags_JsDom$all$__f_bitmap$4;
-    const lo$1 = (134217728 | b$1.RTLong__f_lo);
-    const hi = b$1.RTLong__f_hi;
-    $thiz.Lscalatags_JsDom$all$__f_bitmap$4 = new $c_RTLong(lo$1, hi)
-  };
-  return $thiz.Lscalatags_JsDom$all$__f_cls
-});
 class $c_Lscalatags_JsDom$all$ extends $c_O {
   constructor() {
     super();
@@ -8381,24 +8352,6 @@ class $c_Lscalatags_JsDom$all$ extends $c_O {
       return $p_Lscalatags_JsDom$all$__onclick$lzycompute__Lscalatags_generic_Attr(this)
     } else {
       return this.Lscalatags_JsDom$all$__f_onclick
-    }
-  };
-  class__Lscalatags_generic_Attr() {
-    const b = this.Lscalatags_JsDom$all$__f_bitmap$4;
-    const lo = (67108864 & b.RTLong__f_lo);
-    if ((lo === 0)) {
-      return $p_Lscalatags_JsDom$all$__class$lzycompute__Lscalatags_generic_Attr(this)
-    } else {
-      return this.Lscalatags_JsDom$all$__f_class
-    }
-  };
-  cls__Lscalatags_generic_Attr() {
-    const b = this.Lscalatags_JsDom$all$__f_bitmap$4;
-    const lo = (134217728 & b.RTLong__f_lo);
-    if ((lo === 0)) {
-      return $p_Lscalatags_JsDom$all$__cls$lzycompute__Lscalatags_generic_Attr(this)
-    } else {
-      return this.Lscalatags_JsDom$all$__f_cls
     }
   };
 }

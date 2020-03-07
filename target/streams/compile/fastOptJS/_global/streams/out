@@ -1,18 +1,18 @@
 [info] Fast optimizing C:\Users\Edison\Desktop\Repository\target\scala-2.13\scala-js-repo-fastopt.js
-[debug] Linker: Compute reachability: 41363 us
-[debug] Linker: Assemble LinkedClasses: 17441 us
-[debug] Linker: Check IR: 57855 us
-[debug] Linker: 131568 us
-[debug] Optimizer: Batch mode: false
-[debug] Optimizer: Incremental part: 48392 us
-[debug] Optimizer: Optimizing 63 methods.
-[debug] Optimizer: Optimizer part: 61453 us
-[debug] Optimizer: 118031 us
-[debug] Refiner: Compute reachability: 12499 us
-[debug] Refiner: Assemble LinkedClasses: 1058 us
-[debug] Refiner: 15031 us
-[debug] Emitter: Generate classes: 24019 us
-[debug] Emitter: Write trees: 49804 us
-[debug] Emitter: Class tree cache stats: reused: 681 -- invalidated: 2
-[debug] Emitter: Method tree cache stats: reused: 840 -- invalidated: 35
-[debug] Emitter: 135630 us
+[debug] Linker: Compute reachability: 601408 us
+[debug] Linker: Assemble LinkedClasses: 40093 us
+[debug] Linker: Check IR: 221905 us
+[debug] Linker: 881057 us
+[debug] Optimizer: Batch mode: true
+[debug] Optimizer: Incremental part: 96450 us
+[debug] Optimizer: Optimizing 2275 methods.
+[debug] Optimizer: Optimizer part: 738089 us
+[debug] Optimizer: 841775 us
+[debug] Refiner: Compute reachability: 61019 us
+[debug] Refiner: Assemble LinkedClasses: 4785 us
+[debug] Refiner: 84844 us
+[debug] Emitter: Generate classes: 327008 us
+[debug] Emitter: Write trees: 90393 us
+[debug] Emitter: Class tree cache stats: reused: 328 -- invalidated: 355
+[debug] Emitter: Method tree cache stats: reused: 0 -- invalidated: 871
+[debug] Emitter: 481897 us
